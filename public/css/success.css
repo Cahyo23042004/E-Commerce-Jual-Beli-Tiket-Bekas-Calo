@@ -1,0 +1,229 @@
+:root {
+    --grey: #fff;
+    --primary-color: #007BFF;
+    --secondary-color: #FF6347;
+    --dark-color: #333;
+    --light-grey: #bebebe;
+    --background-color: #f9f9f9;
+    --text-color: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.wrapper {
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    background-color: var(--grey);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.success-section {
+    width: 100px;
+    height: 100px;
+    background-color: var(--grey);
+    margin: 0 auto 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.check-icon {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border: 4px solid var(--primary-color);
+    border-radius: 50%;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+
+.check-icon .icon-line {
+    height: 5px;
+    background-color: var(--primary-color);
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+}
+
+.check-icon .line-tip {
+    top: 46px;
+    left: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+    animation: icon-line-tip 0.5s;
+}
+
+@keyframes icon-line-tip {
+    0% {
+        width: 0;
+        left: 1px;
+        top: 19px;
+    }
+    54% {
+        width: 0;
+        left: 1px;
+        top: 19px;
+    }
+    70% {
+        width: 50px;
+        left: -8px;
+        top: 37px;
+    }
+    84% {
+        width: 17px;
+        left: 21px;
+        top: 48px;
+    }
+    100% {
+        width: 25px;
+        left: 14px;
+        top: 45px;
+    }
+}
+
+.check-icon .line-long {
+    top: 38px;
+    right: 8px;
+    width: 47px;
+    transform: rotate(-45deg);
+    animation: icon-line-long 0.75s;
+}
+
+@keyframes icon-line-long {
+    0% {
+        width: 0;
+        right: 46px;
+        top: 54px;
+    }
+    65% {
+        width: 0;
+        right: 46px;
+        top: 54px;
+    }
+    84% {
+        width: 55px;
+        right: 0px;
+        top: 35px;
+    }
+    100% {
+        width: 47px;
+        right: 8px;
+        top: 38px;
+    }
+}
+
+.check-icon .icon-circle {
+    top: -4px;
+    left: -4px;
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    box-sizing: content-box;
+    border: 4px solid var(--primary-color);
+}
+
+.check-icon .icon-fix {
+    top: 8px;
+    width: 5px;
+    left: 26px;
+    z-index: 1;
+    height: 85px;
+    position: absolute;
+    transform: rotate(-45deg);
+    background-color: var(--grey);
+}
+
+.title-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title-section .para span {
+    font-weight: bold;
+}
+
+.title {
+    color: var(--dark-color);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.para {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.customer-info {
+    font-size: 12.5px;
+    text-align: center;
+    color: var(--dark-color);
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.order-details p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.total {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.submit-btn {
+    width: 100%;
+    background: var(--primary-color);
+    color: var(--grey);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 13px 24px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-top: 10px;
+}
+
+.submit-btn a {
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.submit-btn:hover {
+    background: var(--secondary-color);
+    border: 1px solid var(--grey);
+    color: var(--grey);
+}

@@ -1,0 +1,173 @@
+.sell-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sell-button-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    gap: 10px; 
+}
+
+.sell-button-container button {
+    flex: 1;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.sell-button-container button:hover {
+    background-color: #1d8aff; 
+    transform: scale(1.05); 
+    border-radius: 15px;
+}
+
+.sell-hidden {
+    display: none;
+}
+
+.sell-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sell-card-header {
+    background-color: #007bff;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+}
+
+.sell-card-body {
+    background-color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 20px;
+}
+
+.sell-form-group {
+    margin-bottom: 15px;
+}
+
+.sell-form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sell-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.sell-btn-block {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.sell-btn-block:hover {
+    background-color: #007bff; 
+    transform: scale(1);
+}
+
+.sell-preview-container .sell-card-body {
+    background-color: #f1f1f1;
+}
+
+.sell-img-fluid {
+    max-width: 50%;
+    max-height: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.sell-preview-details {
+    text-align: center;
+}
+
+.sell-preview-details h5 {
+    margin-bottom: 10px;
+}
+
+.sell-preview-details p {
+    margin-bottom: 5px;
+}
+
+.sell-list-tickets .sell-ticket-card,
+.sell-my-orders .sell-order-card {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sell-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.sell-card-text {
+    margin-bottom: 10px;
+}
+
+.sell-ticket-card img {
+    margin-bottom: 15px;
+    max-width: 50%; 
+    max-height: 200px; 
+}
+
+
+.sell-ticket-card .sell-edit-btn,
+.sell-ticket-card .sell-delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.sell-ticket-card .sell-edit-btn {
+    background-color: #28a745; 
+    right: 50px; 
+}
+
+.sell-ticket-card .sell-edit-btn:hover {
+    background-color: #218838; 
+    transform: scale(1.05); 
+}
+
+.sell-ticket-card .sell-delete-btn {
+    background-color: #dc3545; 
+}
+
+.sell-ticket-card .sell-delete-btn:hover {
+    background-color: #c82333; 
+    transform: scale(1.05); 
+}
+
+.sell-cancel-btn {
+    display: block;
+    margin: 20px auto 0; 
+    padding: 10px 20px;
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.sell-cancel-btn:hover {
+    background-color: #c82333; 
+    transform: scale(1.05); 
+}

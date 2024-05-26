@@ -1,0 +1,266 @@
+
+
+:root {
+    --card_width: 250px;
+    --row_increment: 10px;
+    --card_border_radius: 16px;
+    --card_small: 26;
+    --card_medium: 33;
+    --card_large: 45;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, sans-serif;
+    outline:none; border: none; 
+    transition: .2s linear;
+}
+
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 750px;
+    background-color: rgba(51, 51, 51, .05);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    
+    border-radius: 10px;
+    color: #fff;
+    padding: 40px 35px 55px;
+    padding: 25px 35px 25px;
+    margin: 0 10px;
+    margin-top: 15rem;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.wrapper .input-box{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-box .input-field{
+    position: relative;
+    width: 48%;
+    height: 50px;
+    margin: 13px 0;
+}
+
+.input-box .input-field input{
+    width: 100%;
+    height: 100%;
+   
+    border: 2px solid rgba(255, 255, 255, .2);
+    background-color: rgba(102, 102, 102, .1);
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+}
+
+.input-box .input-field input::placeholder{
+    color: #fff;
+}
+
+.input-box .input-field i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #333;
+}
+
+
+
+
+.wrapper label{
+    display: inline-block;
+    font-size: 14.5px;
+    margin: 10px 0 23px ;
+}
+
+.wrapper label input{
+    accent-color: #fff;
+    margin-right: 5px;
+
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+.btn:nth-child(3){
+    background-color: red;
+    color: #fff;
+    margin-top: 3px;
+}
+
+.btn:nth-child(3):hover{
+    background-color: #fff;
+    color: red;
+}
+
+.btn:nth-child(2){
+    margin-top: 30px;
+}
+
+.slider{
+    --_spacer: var(--size-4);
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+
+    padding: 0 var(--_spacer) var(--_spacer);
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.snaps-inline{
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--_spacer, 1rem);
+}
+
+.snaps-inline > *{
+    scroll-snap-align: start;
+}
+
+.quantity input{
+    border-radius: 15px;
+    height: 35px;
+    width: 75px;
+    display:block;
+    margin: auto;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #333;
+}
+
+.quantity{
+    margin-top: 5px;
+}
+
+.wrapper .wrapper2 img{
+    display:block;
+    margin: auto;
+}
+
+.wrapper .wrapper2 p{
+    text-align: center;
+    color: #666;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.group{
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    background: var(--surface-2);
+    box-shadow: var(--shadow-3);
+}
+
+.group:nth-child(2){
+    margin-left: 150px;
+}
+
+.wrapper .wrapper2 .group{
+    position: relative;
+}
+
+.wrapper .wrapper2 .group .image .icons{
+	bottom: 18rem; left: 16rem; right:0;
+	display:flex;
+    position: absolute;
+}
+
+.wrapper .wrapper2 .group .image .icons a{
+    height: 3rem;
+	line-height: 4rem;
+	font-size: 20px;
+	width: 100%;
+	background: var(--grey);
+	color: #333;    
+}
+
+.wrapper .wrapper2 .group .image .icons a:hover{
+    color: red;
+}
+
+.profilepic img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10.5rem;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.profilepic p{
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    font-size: 11.5px;
+}
+
+.profilepic p:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 576px){
+    .input-box .input-field{
+        width: 100%;
+        margin: 10px 0  ;
+    }
+}
