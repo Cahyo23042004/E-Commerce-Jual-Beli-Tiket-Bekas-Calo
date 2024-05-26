@@ -35,39 +35,24 @@
             <section id="faqs" class="faqs-section">
                 <h2>Frequently Asked Questions</h2>
                 <div class="faq-item">
-                    <button class="faq-question">What is your return policy?</button>
+                    <button class="faq-question">Q: Bagaimana cara mengontak penjual?</button>
                     <div class="faq-answer">
-                        <p>Our return policy allows returns within 30 days of purchase.</p>
+                        <p>A: Kamu dapat menghubungi penjual setelah melakukan checkout tiket. Tenang saja, metode pembayaran yang berlaku di Calo hanya COD jadi sekali pun kamu sudah checkout tiket, saldo kamu tidak berkurang!
+</p>
                     </div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-question">What is your return policy?</button>
+                    <button class="faq-question">Q: Bagaimana cara bertanya ke help center Calo?</button>
                     <div class="faq-answer">
-                        <p>Our return policy allows returns within 30 days of purchase.</p>
+                        <p>A: Silakan pilih section “Help Center” di navigation bar dan pilih menu “Contact Us”. Kamu akan terhubung dengan admin Calo melalui WhatsApp.
+</p>
                     </div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-question">What is your return policy?</button>
+                    <button class="faq-question">Q: Apakah di Calo ada diskon?</button>
                     <div class="faq-answer">
-                        <p>Our return policy allows returns within 30 days of purchase.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">What is your return policy?</button>
-                    <div class="faq-answer">
-                        <p>Our return policy allows returns within 30 days of purchase.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">What is your return policy?</button>
-                    <div class="faq-answer">
-                        <p>Our return policy allows returns within 30 days of purchase.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">What is your return policy?</button>
-                    <div class="faq-answer">
-                        <p>Our return policy allows returns within 30 days of purchase.</p>
+                        <p>A: Untuk saat ini tidak ada karena kami adalah perusahaan start up sehingga kami masih harus balik modal. Mohon pengertiannya.
+</p>
                     </div>
                 </div>
                 
@@ -75,7 +60,13 @@
 
             <section id="docs" class="docs-section">
                 <h2>Documentation</h2>
-                <!-- Add your documentation content here -->
+                [Getting Started]
+Welcome to Calo, the premier destination for buying tickets online. Whether you're looking to attend a concert, sporting event, theater performance, or any other event, our platform makes it easy and convenient.
+
+[Support]
+For further assistance, please contact our support team:
+Phone: 0812-8332-1577
+
             </section>
         </div>
 
