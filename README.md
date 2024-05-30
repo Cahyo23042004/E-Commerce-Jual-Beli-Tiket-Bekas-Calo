@@ -60,20 +60,6 @@ composer install
 **Set Up Environment Variables:**
 
 Create a .env file in the root directory and add the necessary environment variables. Example:
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=base64:randomkey
-APP_DEBUG=true
-APP_URL=http://localhost
-
-LOG_CHANNEL=stack
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
 
 **Generate Application Key:**
 
