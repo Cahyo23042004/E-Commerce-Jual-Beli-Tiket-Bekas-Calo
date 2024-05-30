@@ -25,7 +25,9 @@ The agile software development methodology, particularly extreme programming (XP
 ## Contributing
 
 Nurcahya Priantoro: Backend development, frontend-backend integration, UI design, diagram creation, report writing.
+
 Nurul Fadillah: Frontend development, diagram creation, report writing.
+
 Qurrotul ‘Aini: Diagram creation.
 
 ## Feature
@@ -44,14 +46,19 @@ Calo aims to simplify and secure the process of buying and selling concert ticke
 ## How To Install
 
 **Clone the Repository: **
+
 git clone https://github.com/Cahyo23042004/E-Commerce-Jual-Beli-Tiket-Bekas-Calo.git
+
 cd E-Commerce-Jual-Beli-Tiket-Bekas-Calo
 
 **Install Dependencies: **
+
 npm install
+
 composer install
 
 **Set Up Environment Variables:**
+
 Create a .env file in the root directory and add the necessary environment variables. Example:
 APP_NAME=Laravel
 APP_ENV=local
@@ -69,9 +76,11 @@ DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
 
 **Generate Application Key:**
+
 php artisan key:generate
 
 **Run Database Migrations:**
+
 php artisan migrate
 
 **Start the Development Server:**
