@@ -1,12 +1,8 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src logo calo.png…]()
-%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Calo Logo"></a></p>
+![logo calo](https://github.com/Cahyo23042004/E-Commerce-Jual-Beli-Tiket-Bekas-Calo/assets/80837061/045302c7-033f-4405-8a34-f7a5e049afbc)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+
+
+
 
 ## About Calo
 
