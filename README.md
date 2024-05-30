@@ -10,58 +10,70 @@
 ## About Calo
 
 Introduction
-This project is an E-Commerce application for buying and selling second-hand tickets. It is built using modern web development technologies to provide a seamless user experience. The backend is developed using Node.js, while the frontend is implemented with React. The database is managed using Laravel Herd and TablePlus.
+In the modern era, the presence of concert ticket scalpers is hard to avoid. Many concertgoers find themselves unable to purchase tickets through official channels and must resort to scalpers. However, the lack of centralized information on scalpers makes it difficult for buyers to find reliable sellers and compare prices. Calo, a web application, aims to provide a platform for buying and selling concert tickets securely and efficiently.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Calo is designed to facilitate safe and quick transactions between ticket buyers and scalpers. It offers a sophisticated search feature for buyers to find desired concert tickets and allows scalpers to market their tickets to a wider audience. Online shopping is preferred due to advancements in internet services and banking, which simplify transactions and offer convenience (Olii et al. 2020).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+In Indonesia, online buying and selling applications are widespread. An example is Tiket.com, an online travel agency (OTA) website that allows users to book hotel rooms domestically and internationally (Rahmadiansyah et al. 2023).
 
-## Learning Laravel
+### Methods
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This project was developed using a combination of programming languages. For the front end, HTML, CSS, and JavaScript were used, while PHP was employed for the back end. Laravel and Tailwind CSS frameworks were utilized. MySQL, managed with TablePlus, served as the database management system. Laravel Herd was used as the web server.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+The agile software development methodology, particularly extreme programming (XP), was chosen due to its adaptability to changing requirements and emphasis on communication, collaboration, and incremental testing (Ariesta et al. 2021).
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Nurcahya Priantoro: Backend development, frontend-backend integration, UI design, diagram creation, report writing.
+Nurul Fadillah: Frontend development, diagram creation, report writing.
+Qurrotul ‘Aini: Diagram creation.
 
-## Code of Conduct
+## Feature
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+User Management: Register, login, and manage user data.
+Ticket Management: View ticket details, prices, and availability.
+Ticket Sales: Buy and sell tickets.
+Search Bar: Filter products by ticket name.
+Ticket History: View purchase and sales history.
+Help Center: Contact admin for support via WhatsApp.
 
-## Security Vulnerabilities
+## Conclusion
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Calo aims to simplify and secure the process of buying and selling concert tickets. By providing a centralized platform, it ensures that users can find reliable sellers, compare prices, and conduct transactions with confidence.
 
-## License
+## How To Install
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**Clone the Repository: **
+git clone https://github.com/Cahyo23042004/E-Commerce-Jual-Beli-Tiket-Bekas-Calo.git
+cd E-Commerce-Jual-Beli-Tiket-Bekas-Calo
+
+**Install Dependencies: **
+npm install
+composer install
+
+**Set Up Environment Variables:**
+Create a .env file in the root directory and add the necessary environment variables. Example:
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=base64:randomkey
+APP_DEBUG=true
+APP_URL=http://localhost
+
+LOG_CHANNEL=stack
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_user
+DB_PASSWORD=your_database_password
+
+**Generate Application Key:**
+php artisan key:generate
+
+**Run Database Migrations:**
+php artisan migrate
+
+**Start the Development Server:**
+npm run dev
+php artisan serve
