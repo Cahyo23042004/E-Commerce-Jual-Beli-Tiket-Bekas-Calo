@@ -1,6 +1,4 @@
-![logo calo](https://github.com/Cahyo23042004/E-Commerce-Jual-Beli-Tiket-Bekas-Calo/assets/80837061/045302c7-033f-4405-8a34-f7a5e049afbc)
-
-
+            ![logo calo](https://github.com/Cahyo23042004/E-Commerce-Jual-Beli-Tiket-Bekas-Calo/assets/80837061/045302c7-033f-4405-8a34-f7a5e049afbc)
 
 
 
